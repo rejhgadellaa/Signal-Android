@@ -11,7 +11,7 @@
         android:orientation="horizontal"
         android:clickable="true"
         android:background="?android:windowBackground"
-        android:padding="5dp"
+        android:padding="8dp"
         android:clipChildren="false"
         android:clipToPadding="false">
 
@@ -32,8 +32,9 @@
 
             <org.thoughtcrime.securesms.components.emoji.EmojiToggle
                     android:id="@+id/emoji_toggle"
-                    android:layout_width="37dp"
-                    android:layout_height="37dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
                     android:layout_gravity="bottom"
                     android:background="@drawable/touch_highlight_background"
                     android:contentDescription="@string/conversation_activity__emoji_toggle_description" />
@@ -43,7 +44,8 @@
                     android:id="@+id/embedded_text_editor"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:minHeight="37dp"
+                    android:minHeight="40dp"
+                    android:layout_marginLeft="2dp"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
                     android:nextFocusForward="@+id/send_button"
@@ -57,39 +59,40 @@
                     android:id="@+id/quick_attachment_toggle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
                     android:clipChildren="false"
                     android:clipToPadding="false">
 
                 <ImageButton
                         android:id="@+id/quick_camera_toggle"
-                        android:layout_width="37dp"
-                        android:layout_height="37dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_gravity="bottom"
                         android:src="?quick_camera_icon"
                         android:background="@drawable/touch_highlight_background"
                         android:contentDescription="@string/conversation_activity__quick_attachment_drawer_toggle_camera_description"
-                        android:padding="10dp"/>
+                        android:padding="8dp"/>
 
                 <org.thoughtcrime.securesms.components.MicrophoneRecorderView
                         android:id="@+id/recorder_view"
-                        android:layout_width="37dp"
-                        android:layout_height="37dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:clipChildren="false"
                         android:clipToPadding="false">
 
                     <ImageButton
                             android:id="@+id/quick_audio_toggle"
-                            android:layout_width="37dp"
-                            android:layout_height="37dp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
                             android:layout_gravity="bottom"
                             android:src="?quick_mic_icon"
                             android:background="@null"
                             android:contentDescription="@string/conversation_activity__quick_attachment_drawer_record_and_send_audio_description"
-                            android:padding="10dp"/>
+                            android:padding="8dp"/>
 
                     <ImageView android:id="@+id/quick_audio_fab"
-                               android:layout_width="74dp"
-                               android:layout_height="74dp"
+                               android:layout_width="72dp"
+                               android:layout_height="72dp"
                                android:src="@drawable/ic_mic_white_48dp"
                                android:background="@drawable/circle_tintable"
                                android:backgroundTint="@color/red_400"
@@ -112,8 +115,8 @@
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:ellipsize="none"
-                      android:layout_marginLeft="20dp"
-                      android:layout_marginStart="20dp"
+                      android:layout_marginLeft="24dp"
+                      android:layout_marginStart="24dp"
                       android:text="00:00"
                       android:textColor="#61737b"
                       android:textSize="20dp"
@@ -137,8 +140,8 @@
                           android:textSize="10sp"
                           android:ellipsize="none"
                           android:singleLine="true"
-                          android:paddingLeft="20dp"
-                          android:paddingStart="20dp"
+                          android:paddingLeft="24dp"
+                          android:paddingStart="24dp"
                           android:visibility="gone"
                           tools:visibility="visible"/>
 
@@ -149,9 +152,9 @@
     </FrameLayout>
     <org.thoughtcrime.securesms.components.AnimatingToggle
             android:id="@+id/button_toggle"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginBottom="1dp"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="0dp"
             android:background="@drawable/circle_tintable"
             android:layout_gravity="bottom">
 

@@ -34,7 +34,7 @@
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:layout_toRightOf="@id/contact_photo"
-                      android:layout_marginRight="32dp"
+                      android:layout_marginRight="40dp"
                       android:background="@drawable/received_bubble"
                       android:orientation="vertical"
                       tools:backgroundTint="@color/blue_900">
@@ -72,9 +72,9 @@
 
             <LinearLayout android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
-                          android:paddingTop="2dip"
                           android:paddingLeft="4dp"
                           android:paddingRight="4dp"
+                          android:paddingBottom="2dip"
                           android:orientation="horizontal"
                           android:gravity="left">
 
@@ -174,10 +174,10 @@
     <TextView android:id="@+id/group_message_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="sans-serif-light"
-        android:textSize="13sp"
+        android:textSize="12sp"
         android:textColor="?attr/conversation_group_member_name"
         android:visibility="gone"
         android:text="John Doe" />

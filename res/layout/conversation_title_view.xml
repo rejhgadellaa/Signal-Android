@@ -15,7 +15,7 @@
               android:singleLine="true"
               android:ellipsize="end"
               android:transitionName="recipient_name"
-              android:drawablePadding="5dp"
+              android:drawablePadding="4dp"
               android:gravity="center_vertical"
               android:layout_gravity="center_vertical"
               style="@style/TextSecure.TitleTextStyle"

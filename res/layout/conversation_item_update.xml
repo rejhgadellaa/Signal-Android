@@ -12,7 +12,7 @@
         android:padding="16dp">
 
     <ImageView android:id="@+id/conversation_update_icon"
-               android:layout_marginRight="8dp"
+               android:layout_marginRight="16dp"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_gravity="center_vertical"
@@ -36,7 +36,7 @@
                   android:autoLink="none"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
-                  android:minWidth="15sp"
+                  android:minWidth="16sp"
                   android:linksClickable="false"
                   android:textAppearance="?android:attr/textAppearanceSmall"
                   android:layout_gravity="center"

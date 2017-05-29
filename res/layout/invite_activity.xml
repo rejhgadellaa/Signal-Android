@@ -13,7 +13,7 @@
                       android:layout_height="wrap_content"
                       android:layout_width="match_parent"
                       android:orientation="vertical"
-                      android:padding="10dp"
+                      android:padding="16dp"
                       android:background="@color/signal_primary">
 
             <ImageView android:id="@+id/heart"
@@ -29,11 +29,11 @@
                       android:textSize="20sp"
                       android:text="@string/InviteActivity_friends_dont_let_friends_text_unencrypted"
                       android:gravity="center_horizontal"
-                      android:layout_marginBottom="30dp"
+                      android:layout_marginBottom="32dp"
                       android:layout_marginTop="18dp"
                       android:fontFamily="sans-serif-light"
-                      android:paddingLeft="10dp"
-                      android:paddingStart="10dp"/>
+                      android:paddingLeft="8dp"
+                      android:paddingStart="8dp"/>
 
             <EditText android:id="@+id/invite_text"
                       android:layout_width="match_parent"
@@ -41,22 +41,22 @@
                       android:minLines="2"
                       tools:text="Let's switch to Signal: https://sgnl.link/asdfdfsa"
                       android:background="@drawable/sent_bubble"
-                      android:paddingTop="10dp"
-                      android:paddingBottom="10dp"
-                      android:paddingLeft="10dp"
-                      android:paddingRight="20dp"
+                      android:paddingTop="8dp"
+                      android:paddingBottom="8dp"
+                      android:paddingLeft="16dp"
+                      android:paddingRight="16dp"
                       android:gravity="top"
                       android:inputType="textShortMessage|textMultiLine"
                       android:textColor="#ff333333"/>
 
             <LinearLayout android:layout_width="match_parent"
                           android:layout_height="wrap_content"
-                          android:layout_marginTop="10dp"
+                          android:layout_marginTop="16dp"
                           android:gravity="center_horizontal"
                           android:orientation="horizontal">
 
                 <Button android:id="@+id/share_button"
-                        android:drawablePadding="10dp"
+                        android:drawablePadding="8dp"
                         android:drawableLeft="@drawable/ic_share_black_18dp"
                         android:drawableStart="@drawable/ic_share_black_18dp"
                         android:text="@string/InviteActivity_share"
@@ -67,7 +67,7 @@
                 <Button android:id="@+id/sms_button"
                         android:drawableLeft="@drawable/ic_message_black_18dp"
                         android:drawableStart="@drawable/ic_message_black_18dp"
-                        android:drawablePadding="10dp"
+                        android:drawablePadding="8dp"
                         android:text="@string/InviteActivity_choose_contacts"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:gravity="end"
-                      android:padding="10dp"
+                      android:padding="8dp"
                       android:orientation="horizontal">
 
             <Button android:id="@+id/cancel_sms_button"

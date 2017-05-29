@@ -22,15 +22,15 @@
         <View android:layout_width="1px"
               android:layout_height="match_parent"
               android:background="?emoji_tab_seperator"
-              android:layout_marginTop="10dp"
-              android:layout_marginBottom="10dp" />
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="8dp" />
 
         <org.thoughtcrime.securesms.components.RepeatableImageKey
                 android:id="@+id/backspace"
                 android:background="?emoji_tab_strip_background"
                 android:src="@drawable/ic_backspace_grey600_24dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent" />
 

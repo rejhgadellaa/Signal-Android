@@ -11,7 +11,10 @@
         android:orientation="horizontal"
         android:clickable="true"
         android:background="?android:windowBackground"
-        android:padding="8dp"
+        android:paddingTop="4dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
         android:clipChildren="false"
         android:clipToPadding="false">
 
